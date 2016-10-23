@@ -1,0 +1,29 @@
+{
+  "name": "pursuithealth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/natefikru/Personal-Template.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  },
+  "dependencies": {
+    "animate-js": "^0.3.2",
+    "animate.css": "^3.5.2",
+    "material-design-lite": "^1.2.1",
+    "wow": "0.0.6",
+    "wowjs": "^1.1.3"
+  }
+}
