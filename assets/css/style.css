@@ -43,6 +43,10 @@
     src: url('../fonts/Raleway/Raleway-Light.ttf');
 }
 
+body{
+    background-color: #389a9b;
+}
+
 .fill {
     width: 100%;
     height: 100%;
@@ -87,27 +91,33 @@ h1, h2, h3, h4, h5, h6 {
 
 h1#headerText {
     font-family: 'raleway-medium' !important;
-    font-size: 60px !important;
+    font-size: 5vh !important;
     color:white;
+    margin-top: 20px !important;
+    margin-bottom: 100px !important;
     font-weight: 700;
 }
 
 p#feature-text{
-    margin-top: 45px;
+    color: white;
+    line-height: 20px;
+    font-size: 14px;
+    padding-left: 35px; 
+    right:20px; 
     font-family: 'raleway-medium' !important;
 }
 
 h2{
-    font-size = 30px;
+    font-size = 40px !important;
     color: white;
     font-family: raleway-light !important;
     text-align: center;
 }
 
 h2#underText{
-    font-size: 30px;
+    font-size: 3vh !important;
     color: white;
-    font-family: 'raleway-light' !important;
+    font-family: 'raleway-medium' !important;
 }
 h2#aboutText{
     line-height: 38px;
@@ -118,21 +128,43 @@ h2#aboutText{
 }
 h2#headerApplication{
     margin-top: 40px;
+    font-size: 40px;
     font-family: 'raleway-medium' !important;
 }
 
 h4#navbar-text{
     font-family: 'spaceship' !important;
 }
+
+h3#team-text{
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
 p#paragraphApplication{
     color: white;
-    font-size: 20px;
-    font-family: 'raleway-light' !important;
-    margin-top: 200px;
+    font-size: 15px;
+    font-family: 'raleway-medium' !important;
+    margin-top: 50px;
+    margin-bottom: 70px;
     line-height: 30px;
 }
 
+p#footer-paragraph{
+    
+    margin-bottom: 10px !important;
+    margin-top: 10px !important;
+    font-size: 1.5vh;
+    line-height: 10px;
+}
+p#role-text{
+    margin-bottom: 0px;
+    font-size: 14px;
+    overflow:hidden; 
+    
+}
+
 h1#team-header{
+    font-size: 40px;
     color: #389a9b;
     font-family: 'raleway-medium' !important;
     
@@ -150,11 +182,19 @@ h1#team-header{
 
 a,a:hover {
     text-decoration:none;
-    font-family: 'raleway-light' !important;
 }
 
 a{
-    font-size: 20px;
+    color: white;
+}
+
+a{
+
+}
+
+a#navbar-text{
+        font-size: 14px;
+    padding-left: 5px !important;
 }
 
 p {
@@ -289,6 +329,7 @@ p {
    Team
    ========================================================================== */
 #team{
+    background-color: white;
     width: 100%;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -324,8 +365,14 @@ p {
 }
 
 .past-top{
-    background: rgba(56,154,155,.4) !important;
+/*    background: rgba(56,154,155,.4) !important;*/
+    background: rgba(0,0,0,.4)!important;
+/*
+    background: linear-gradient(to bottom right, #389a9b, #d72f2e);
+    opacity: 40%;
+*/
 }
+
 
 
 .navbar-inverse {
@@ -344,12 +391,19 @@ p {
 	font-size: 25px;
     font-weight:900;
 	letter-spacing: 2px;
+    padding-top: 10px !important;
 }
 .navbar-inverse :hover .navbar-brand:hover {
 	color: #ffffff;	
 }
 .navbar-inverse .navbar-nav > li > a {
 color: #FFFFFF;
+}
+
+#navbarLogo{
+    height: 30px;
+    
+    width: auto;
 }
 
 /* ==========================================================================
@@ -366,7 +420,8 @@ color: #FFFFFF;
 
 #footer {
     display: block;
-    background-color: #d72f2e;
+/*    background-color: #276c6d;*/
+    background: linear-gradient(to bottom right, #389a9b, #d72f2e);
     color: #fff; 
     text-align: center; 
     padding: 0px 30px 0px 30px;
@@ -376,15 +431,6 @@ color: #FFFFFF;
    visibility: hidden;
 }
 
-.mdl-textfield.is-invalid .mdl-textfield__input{
-        border-color: rgba(0,0,0,.3) !important;
-}
-
-#mc_embed_signup{
-    display: block;
-    background:#d72f2e;
-    font:14px Helvetica,Arial,sans-serif; 
-}
 
 #about-us{
     height:  75vh;
@@ -394,7 +440,9 @@ color: #FFFFFF;
     background-color: #389a9b;
 }
 #mockup{
-    margin-bottom: 40px;
+    max-height: 700px;
+    width: auto;
+    padding-bottom: 40px;
 }
 
 #phLogo{
@@ -402,13 +450,41 @@ color: #FFFFFF;
     width: auto;
 }
 #feature-icon{
-    
+    padding-bottom: 20px;
+    padding-left: 40px;
 }
-/*
-.linear-gradient{
-    background: linear-gradient(left top, #389a9b, #d72f2e);
-}
-*/
 
+#submit{
+    
+    
+    max-width: 300px;
+}
+
+#mail-label{
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    font-family: 'raleway-light' !important;
+}
+
+.linear-gradient{
+    background: linear-gradient(to bottom right, #389a9b, #d72f2e);
+}
+
+#navbar-facebook{
+    height: 40px;
+    width: auto;
+}
+
+#founder{
+    margin-top: 15px;
+    height: 225px;
+    width: 225px;
+}
+
+#team-member{
+    height: 130px;
+    width: 130px;
+}
 
 
