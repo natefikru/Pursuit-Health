@@ -44,7 +44,7 @@
 }
 
 body{
-    background-color: #389a9b;
+/*    background-color: #389a9b;*/
 }
 
 .fill {
@@ -252,7 +252,6 @@ p {
 #header-section {
 /*    background: url("../img/background.jpg") ;*/
 /*	margin-top: 20px;*/
-    
 	padding-top:10vh;
 	text-align:center;
 	background-position: center center;
@@ -362,6 +361,7 @@ p {
 .navbar {
 	font-size: 14px;
     margin-bottom:  0px;
+    background: rgba(0,0,0,0)!important;
 }
 
 .past-top{
@@ -404,6 +404,11 @@ color: #FFFFFF;
     height: 30px;
     
     width: auto;
+}
+
+#navbar-button{
+    margin-top: 2px;
+    margin-right: 2px;
 }
 
 /* ==========================================================================
@@ -471,8 +476,8 @@ color: #FFFFFF;
     background: linear-gradient(to bottom right, #389a9b, #d72f2e);
 }
 
-#navbar-facebook{
-    height: 40px;
+#facebookLogo{
+    height: 20px;
     width: auto;
 }
 
@@ -486,5 +491,13 @@ color: #FFFFFF;
     height: 130px;
     width: 130px;
 }
+
+.mc-modal{
+    padding-top: 50px;
+}
+.mc-closeModal{
+    padding-top: 50px;
+}
+
 
 

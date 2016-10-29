@@ -34,7 +34,7 @@
     <script src="/node_modules/material-design-lite/material.min.js"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     
-<!--    <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us14.list-manage.com","uuid":"68c5c25987908f3d58425fef5","lid":"86ed9bd571"}) })</script>-->
+    <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us14.list-manage.com","uuid":"68c5c25987908f3d58425fef5","lid":"86ed9bd571"}) })</script>
      <meta name="ROBOTS" content="NOINDEX" />
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -45,11 +45,15 @@
     <!--END HEAD SECTION -->
 <body>   
      <!-- NAV SECTION -->
-    <div class="navbar navbar-inverse navbar-fixed-top" id="navbar">
+    <nav class="navbar navbar-inverse navbar-fixed-top" id="navbar">
         <div class="container">
             <div class="navbar-header">
+                <button type="button" id="navbar-button" class="navbar-toggle " data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
                 <a class="navbar-brand" href="#">
-<!--                   <h4 class="nav navbar-nav navbar-left" id="navbar-text">PURSUIT</h4>-->
                 <img src="assets/img/logo-text.png" id="navbarLogo">   
                 </a>
             </div>
@@ -57,17 +61,16 @@
                 <ul class="nav navbar-nav navbar-right">
                     <li><a id="navbar-text" href="#header-section">Home</a></li>
                     <li><a id="navbar-text" href="#phone-mockup">Our Software</a></li>
-<!--                    <li><a id="navbar-text" href="#about-us">About Us</a></li>-->
                     <li><a id="navbar-text" href="#team">Team</a></li>
                     <li><a id="navbar-text" href="#footer">Contact Us</a></li>
-                    <li><a id="navbar-text" href="#">Facebook</a></li>
                     <li><a id="navbar-text" href="#">Login</a></li>
+                    <li><a id="" href="#"><img src="assets/img/facebook-logo.png" id="facebookLogo">  </a></li>
                     
                 </ul>
             </div>
            
         </div>
-    </div>
+    </nav>
      <!--END NAV SECTION -->
     
 
