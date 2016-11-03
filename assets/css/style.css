@@ -15,6 +15,7 @@
 /* Background images are set within the HTML using inline CSS, not here */
 
 /*Text Loading*/
+/*
 @font-face {
     font-family: 'myriad-bold';
     src: url('../fonts/Myriad/Myriad-Pro-Bold.ttf');
@@ -26,6 +27,27 @@
 @font-face {
     font-family: 'myriad-medium';
     src: url('../fonts/Myriad/Myriad-Pro.ttf');
+}
+*/
+@font-face {
+    font-family: 'koz-extralight';
+    src: url('../fonts/kozuka/Koz-ExtraLight.otf');
+}
+@font-face {
+    font-family: 'koz-light';
+    src: url('../fonts/kozuka/Koz-Light.otf');
+}
+@font-face {
+    font-family: 'koz-medium';
+    src: url('../fonts/kozuka/Koz-Medium.otf');
+}
+@font-face {
+    font-family: 'koz-regular';
+    src: url('../fonts/kozuka/Koz-Regular.otf');
+}
+@font-face {
+    font-family: 'koz-bold';
+    src: url('../fonts/kozuka/Koz-Bold.otf');
 }
 
 .fill {
@@ -63,19 +85,20 @@ p#feature-text{
     font-size: 14px;
     padding-left: 35px; 
     right:20px; 
-    font-family: 'myriad-medium' !important;
+    font-family: 'koz-extralight' !important;
 }
 
 p {
     line-height: 40px;
     font-size: 17px;
     margin-bottom: 50px;
+    font-family: 'koz-light' !important;
 }
 
 p#paragraphApplication{
     color: white;
     font-size: 15px;
-    font-family: 'myriad-medium' !important;
+    font-family: 'koz-extralight' !important;
     margin-top: 50px;
     margin-bottom: 70px;
     line-height: 30px;
@@ -83,10 +106,10 @@ p#paragraphApplication{
 
 p#footer-paragraph{
     
-    margin-bottom: 10px !important;
-    margin-top: 10px !important;
-    font-size: 1.5vh;
-    line-height: 10px;
+    margin-bottom: 0px !important;
+    margin-top: 8px !important;
+    font-size: 1.7vh;
+    line-height: 8px;
 }
 p#role-text{
     margin-bottom: 0px;
@@ -102,7 +125,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1#headerText {
-    font-family: 'myriad-light' !important;
+    font-family: 'koz-extralight' !important;
     font-size: 5vh !important;
     color:white;
     margin-top: 180px !important;
@@ -113,14 +136,14 @@ h1#headerText {
 h1#team-header{
     font-size: 40px;
     color: #389a9b;
-    font-family: 'myriad-medium' !important;
+    font-family: 'koz-light' !important;
     
 }
 
 h2{
     font-size = 40px !important;
     color: white;
-    font-family: myriad-light !important;
+    font-family: koz-extralight !important;
     text-align: center;
 }
 
@@ -133,19 +156,19 @@ h2#header-section{
 h2#underText{
     font-size: 3vh !important;
     color: white;
-    font-family: 'myriad-medium' !important;
+    font-family: 'koz-light' !important;
 }
 h2#aboutText{
     line-height: 38px;
     text-align: center;
     font-size: 26px;
     color: white;
-    font-family: 'myriad-light' !important;
+    font-family: 'koz-extralight' !important;
 }
 h2#headerApplication{
     margin-top: 40px;
     font-size: 40px;
-    font-family: 'myriad-medium' !important;
+    font-family: 'koz-light' !important;
 }
 
 h3#team-text{
@@ -179,11 +202,8 @@ a,a:hover {
 }
 
 a{
+    font-family: 'koz-extralight' !important;
     color: white;
-}
-
-a{
-
 }
 
 a#navbar-text{
@@ -395,7 +415,7 @@ color: #FFFFFF;
     text-align: center;
     font-size: 19px;
     color: white;
-    font-family: 'myriad-medium' !important;
+    font-family: 'koz-light' !important;
 }
 
 /* ==========================================================================
